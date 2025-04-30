@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">odev_3Uygulamasi</string>
+    <string name="song_name" translatable="false">Mayın Tarlası</string>
+    <string name="artist_name" translatable="false">Şebnem Ferah</string>
+    <string name="sure_baslangici" translatable="false">0:00</string>
+    <string name="sure_sonu" translatable="false">2:45</string>
+</resources>
