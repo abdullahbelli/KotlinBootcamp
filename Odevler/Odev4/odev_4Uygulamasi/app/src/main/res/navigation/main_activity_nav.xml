@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.odev_4uygulamasi.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/sayfaAGecis"
+            app:destination="@id/sayfa_AFragment" />
+        <action
+            android:id="@+id/sayfaXGecis"
+            app:destination="@id/sayfa_XFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sayfa_AFragment"
+        android:name="com.example.odev_4uygulamasi.Sayfa_AFragment"
+        android:label="fragment_sayfa__a"
+        tools:layout="@layout/fragment_sayfa__a" >
+        <action
+            android:id="@+id/sayfaAdanByeGecis"
+            app:destination="@id/sayfa_BFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sayfa_BFragment"
+        android:name="com.example.odev_4uygulamasi.Sayfa_BFragment"
+        android:label="fragment_sayfa__b"
+        tools:layout="@layout/fragment_sayfa__b" >
+        <action
+            android:id="@+id/sayfaBdenYyeGecis"
+            app:destination="@id/sayfa_YFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sayfa_XFragment"
+        android:name="com.example.odev_4uygulamasi.Sayfa_XFragment"
+        android:label="fragment_sayfa__x"
+        tools:layout="@layout/fragment_sayfa__x" >
+        <action
+            android:id="@+id/sayfaXtenYyeGecis"
+            app:destination="@id/sayfa_YFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sayfa_YFragment"
+        android:name="com.example.odev_4uygulamasi.Sayfa_YFragment"
+        android:label="fragment_sayfa__y"
+        tools:layout="@layout/fragment_sayfa__y" />
+</navigation>
