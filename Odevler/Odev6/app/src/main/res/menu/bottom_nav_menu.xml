@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/anasayfaFragment"
+        android:icon="@drawable/anasayfa"
+        android:title="Anasayfa" />
+    <item
+        android:id="@+id/primeFragment"
+        android:icon="@drawable/prime"
+        android:title="Prime" />
+    <item
+        android:id="@+id/downloadsFragment"
+        android:icon="@drawable/indirilenler"
+        android:title="İndirilenler" />
+    <item
+        android:id="@+id/serachFragment"
+        android:icon="@drawable/arama"
+        android:title="Arama" />
+    <item
+        android:id="@+id/banaOzelFragment"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Bana Özel" />
+</menu>
