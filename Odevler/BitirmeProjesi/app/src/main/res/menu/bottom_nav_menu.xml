@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/anasayfaFragment"
+        android:icon="@drawable/anasafa_resim"
+        android:title="Anasayfa" />
+    <item
+        android:id="@+id/favorilerFragment"
+        android:icon="@drawable/favori_resim"
+        android:title="Favoriler" />
+    <item
+        android:id="@+id/sepetFragment"
+        android:icon="@drawable/sepet_resim"
+        android:title="Sepetim" />
+    <item
+        android:id="@+id/profilFragment"
+        android:icon="@drawable/profil_resim"
+        android:title="Profil" />
+</menu>
